@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
     public void InitializePlayer()
     {
         rootTransform.position = new Vector2(-2.4f, 0);
-        rootTransform.DOMoveX(-1.9f, .3f);
+        rootTransform.DOMoveX(-1.6f, .3f);
         health.CurrentHealth = health.MaxHealth;
     }
 
